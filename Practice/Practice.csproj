@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>Practice.ExplicitConstructor</StartupObject>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>3</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ExplicitConstructor.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ExplicitConstructor.cs" />
+  </ItemGroup>
+
+</Project>
